@@ -131,8 +131,8 @@ html {
 .search-form__pseudo-checkbox::after {
     content: "";
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     background-color: #FFFFFF;
     opacity: 0;
     top: 50%;
@@ -183,11 +183,11 @@ html {
     border-radius: 0;
 }
 
-.search-form__submit-button:active {
+.button:active {
     background-color: #545050;
 }
 
-.search-form__submit-button:hover {
+.button:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -196,11 +196,6 @@ html {
     inline-size: calc(100% - 4px);
     margin: 30px 2px 0;
     padding-bottom: 2px;
-}
-
-.more-button:hover {
-    text-decoration: underline;
-    cursor: pointer;
 }
 
 .more-button:focus-visible {
